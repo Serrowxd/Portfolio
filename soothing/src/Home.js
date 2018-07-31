@@ -3,14 +3,16 @@ import './css/index.css';
 
 // Comp Imports
 import Main from './routes/main.js';
-
-import OwO from './routes/test.js';
+import About from './routes/about.js';
+import Skills from './routes/skills.js';
+import Projects from './routes/projects.js';
+import Contact from './routes/contact.js';
 
 class Home extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      comp: <Main />,
+      comp: <Skills />,
     };
   }
 
@@ -24,10 +26,11 @@ class Home extends Component {
         <div className="comp_container">
           {this.state.comp}
           <div className="nav_cont">
-            <p onClick={this.handleClick.bind(this, <Main />)}> About </p>
-            <p onClick={this.handleClick.bind(this, <OwO />)}> Skills </p>
-            <p> Projects </p>
-            <p> Contact </p>
+            <p onClick={this.handleClick.bind(this, <Main />)}> Home </p>
+            <p onClick={this.handleClick.bind(this, <About />)}> About </p>
+            <p onClick={this.handleClick.bind(this, <Skills />)}> Skills </p>
+            <p onClick={this.handleClick.bind(this, <Projects />)}>Projects</p>
+            <p onClick={this.handleClick.bind(this, <Contact />)}> Contact </p>
           </div>
         </div>
       </div>

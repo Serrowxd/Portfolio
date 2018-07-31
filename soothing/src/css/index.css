@@ -2,6 +2,7 @@
 html,
 body {
   font-family: 'Maven Pro', sans-serif;
+  background-color: black;
 }
 body {
   margin: 0;
@@ -25,6 +26,7 @@ div {
   background-repeat: no-repeat;
   background-size: 100%;
   background-attachment: fixed;
+  animation: fadein 1s forwards;
 }
 .comp_container {
   margin: 0 auto;
@@ -33,6 +35,39 @@ div {
   flex-direction: column;
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.425);
+}
+.nav_cont p {
+  opacity: 0.8;
+  transition: color 0.5s ease;
+}
+.nav_cont p:hover {
+  color: #952cdb;
+}
+.main_div {
+  transition: opacity 1s ease;
+}
+span {
+  transition: color 1s ease;
+}
+span:hover {
+  color: #952cdb;
+}
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: inherit;
+  }
+}
+@keyframes firelight {
+  0% {
+    opacity: 0.6;
+    color: #fcf8ff;
+  }
+  100% {
+    opacity: 0.8;
+  }
 }
 .main_div {
   margin: 0 auto;
@@ -48,13 +83,15 @@ div {
 }
 .main_div h1 {
   color: white;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   margin-top: 0rem;
   font-size: 10rem;
+  animation: firelight 3s infinite;
+  animation-direction: alternate;
 }
 .main_div h4 {
   color: white;
-  font-size: 3.2rem;
+  font-size: 2.5rem;
   margin-bottom: 0rem;
 }
 .main_div img {
@@ -65,6 +102,7 @@ div {
   min-width: 100%;
   justify-content: space-around;
   margin-bottom: 1rem;
+  margin-top: 2.5rem;
 }
 .nav_cont {
   width: 55%;
@@ -77,13 +115,86 @@ div {
   font-size: 1.7rem;
   cursor: pointer;
 }
-.nav_cont p {
+.about {
+  width: 80%;
+}
+.about h1 {
+  font-size: 3rem;
+}
+.about h2 {
+  color: white;
   opacity: 0.8;
-  transition: color 0.5s ease;
+  text-align: left;
+  font-size: 2rem;
 }
-.nav_cont p:hover {
-  color: #952cdb;
+.about_content {
+  flex-direction: row;
+  color: white;
+  opacity: 0.8;
 }
-.main_div {
-  transition: opacity 1s ease;
+.about_content h2 {
+  font-size: 2.5rem;
+  text-align: right;
+}
+.about_content p {
+  font-size: 1.2rem;
+  text-align: left;
+}
+.about_left {
+  width: 100%;
+  flex-direction: column;
+  margin-right: 1rem;
+}
+.about_right {
+  width: 90%;
+  margin-left: 1rem;
+  flex-direction: column;
+}
+.skills {
+  width: 80%;
+}
+.skills h1 {
+  font-size: 3rem;
+}
+.skills h2 {
+  color: white;
+  opacity: 0.8;
+  text-align: left;
+  font-size: 2rem;
+}
+.skills p {
+  color: white;
+  opacity: 0.8;
+}
+.projects {
+  width: 80%;
+}
+.projects h1 {
+  font-size: 3rem;
+}
+.projects h2 {
+  color: white;
+  opacity: 0.8;
+  text-align: left;
+  font-size: 2rem;
+}
+.projects p {
+  color: white;
+  opacity: 0.8;
+}
+.contact {
+  width: 80%;
+}
+.contact h1 {
+  font-size: 3rem;
+}
+.contact h2 {
+  color: white;
+  opacity: 0.8;
+  text-align: left;
+  font-size: 2rem;
+}
+.contact p {
+  color: white;
+  opacity: 0.8;
 }
