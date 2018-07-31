@@ -1,0 +1,118 @@
+#root,
+html,
+body {
+  font-family: 'Maven Pro', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+div {
+  display: flex;
+}
+
+.background_container {
+  margin: 0 !important;
+  padding: 0;
+
+  position: fixed;
+  overflow: hidden;
+
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+
+  background-image: url(../assets/blurredtest.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  // background-size: 320%; -- works @ lower layouts
+  // background-size: 120rem;
+  background-attachment: fixed;
+}
+
+.comp_container {
+  margin: 0 auto;
+  width: 100%;
+  height: 50rem;
+
+  flex-direction: column;
+  justify-content: center;
+
+  background-color: rgba(0, 0, 0, 0.425);
+}
+
+// Main
+
+.main_div {
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  width: 55%;
+
+  h1,
+  h4 {
+    opacity: 0.8;
+  }
+
+  h1 {
+    color: white;
+    margin-bottom: 4rem;
+    margin-top: 0rem;
+    font-size: 10rem;
+  }
+
+  h4 {
+    color: white;
+    // font-size: 2.7rem;
+    font-size: 3.2rem;
+    margin-bottom: 0rem;
+  }
+
+  img {
+    width: 13rem;
+    margin: 0 auto;
+  }
+}
+
+.main_title {
+  min-width: 100%;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+
+.nav_cont {
+  width: 55%;
+  margin: 0 auto;
+  justify-content: space-around;
+  margin-bottom: 6rem;
+  p {
+    color: white;
+    font-size: 1.7rem;
+    cursor: pointer;
+  }
+}
+
+// Animations
+
+.nav_cont {
+  p {
+    opacity: 0.8;
+    transition: color 0.5s ease;
+  }
+
+  p:hover {
+    color: rgb(149, 44, 219);
+  }
+}
+
+.main_div {
+  transition: opacity 1s ease;
+}
