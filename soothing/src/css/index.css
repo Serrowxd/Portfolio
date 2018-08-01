@@ -154,17 +154,46 @@ span:hover {
   width: 80%;
 }
 .skills h1 {
-  font-size: 3rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
 .skills h2 {
   color: white;
   opacity: 0.8;
-  text-align: left;
-  font-size: 2rem;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
 }
 .skills p {
   color: white;
   opacity: 0.8;
+}
+.skills_row {
+  justify-content: space-around;
+}
+.skills_col {
+  flex-direction: column;
+}
+.skills_col img {
+  width: 4rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+.skills_col h4 {
+  font-size: 2rem;
+  margin-top: 0;
+}
+.skills_col .fix_ember {
+  height: 4rem;
+  width: auto;
+}
+.skills_col .fix_babel {
+  height: 6.2rem;
+  width: auto;
+}
+.skills_col .fix_html5 {
+  height: 4.5rem;
+  width: auto;
 }
 .projects {
   width: 80%;
