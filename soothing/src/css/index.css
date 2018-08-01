@@ -45,6 +45,7 @@ div {
 }
 .main_div {
   transition: opacity 1s ease;
+  animation: fadein 1s forwards;
 }
 span {
   transition: color 1s ease;
