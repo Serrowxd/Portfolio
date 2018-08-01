@@ -52,6 +52,19 @@ span {
 span:hover {
   color: #952cdb;
 }
+.ripple {
+  background-position: center;
+  transition: background 0.8s;
+}
+/* 47a7f5 */
+.ripple:hover {
+  background: rgba(184, 33, 243, 0.945) radial-gradient(circle, transparent 1%, rgba(166, 33, 243, 0.945) 1%) center / 15000%;
+}
+.ripple:active {
+  background-color: #a96ef7;
+  background-size: 100%;
+  transition: background 0s;
+}
 @keyframes fadein {
   0% {
     opacity: 0;
@@ -199,7 +212,8 @@ span:hover {
   width: 80%;
 }
 .projects h1 {
-  font-size: 3rem;
+  font-size: 2rem;
+  margin-bottom: 4rem;
 }
 .projects h2 {
   color: white;
@@ -210,6 +224,36 @@ span:hover {
 .projects p {
   color: white;
   opacity: 0.8;
+}
+.proj_row {
+  justify-content: space-around;
+}
+.proj_row img {
+  height: 20rem;
+  width: auto;
+}
+.proj_col {
+  flex-direction: column;
+}
+.proj_col h4 {
+  font-size: 1.5rem;
+  text-align: center;
+  opacity: 0.8;
+}
+.proj_col button {
+  border: none;
+  border-radius: 2px;
+  width: 10rem;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  align-self: center;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: white;
+  background-color: rgba(149, 33, 243, 0.91);
+  box-shadow: 0 0 4px #999;
+  outline: none;
 }
 .contact {
   width: 80%;
