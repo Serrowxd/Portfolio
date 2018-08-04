@@ -412,12 +412,32 @@ span:hover {
   color: white;
   opacity: 0.8;
 }
+@media (max-width: 835px) {
+  .projects h1 {
+    font-size: 1.5rem;
+  }
+}
 .proj_row {
   justify-content: space-around;
 }
 .proj_row img {
   height: 20rem;
   width: auto;
+}
+@media (max-width: 1500px) {
+  .proj_row img {
+    height: 15rem;
+  }
+}
+@media (max-width: 920px) {
+  .proj_row img {
+    height: 10rem;
+  }
+}
+@media (max-width: 620px) {
+  .proj_row img {
+    height: 8rem;
+  }
 }
 .proj_col {
   flex-direction: column;
@@ -441,6 +461,37 @@ span:hover {
   background-color: rgba(149, 33, 243, 0.91);
   box-shadow: 0 0 4px #999;
   outline: none;
+}
+@media (max-width: 1200px) {
+  .proj_col h4 {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 920px) {
+  .proj_col h4 {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 835px) {
+  .proj_col h4 {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 735px) {
+  .proj_col .github_fix {
+    margin-bottom: 0.85rem;
+  }
+}
+@media (max-width: 690px) {
+  .proj_col .github_fix {
+    margin-bottom: 1.4rem;
+  }
+}
+@media (max-width: 620px) {
+  .proj_col button {
+    width: 8rem;
+    font-size: 12px;
+  }
 }
 .contact {
   width: 80%;

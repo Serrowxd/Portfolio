@@ -22,7 +22,7 @@ const Projects = () => {
         </div>
         <div className="proj_col">
           <img src={img3} class="proj_img" alt="manlaw" />
-          <h4> Github </h4>
+          <h4 class="github_fix"> Github </h4>
           {button}
         </div>
       </div>
