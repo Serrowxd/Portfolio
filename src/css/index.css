@@ -28,6 +28,21 @@ div {
   background-attachment: fixed;
   animation: fadein 1s forwards;
 }
+@media (max-width: 910px) {
+  .background_container {
+    background-size: 200%;
+  }
+}
+@media (max-width: 475px) {
+  .background_container {
+    background-size: 250%;
+  }
+}
+@media (max-width: 375px) {
+  .background_container {
+    background-size: 300%;
+  }
+}
 .comp_container {
   margin: 0 auto;
   width: 100%;
