@@ -27,7 +27,7 @@ const About = () => {
             matter the cost.
           </p>
 
-          <p>
+          <p class="hide_me">
             A bit more in-depth on me; <br />
             I've got a pretty heavy background in computers and gaming, starting
             from when I was very young (2-3 years old). While they may not mean
@@ -55,7 +55,7 @@ const About = () => {
             Creative/Fictional Writing, Dungeons & Dragons, Art, Photography,
             Fan-Fiction, Music, and Creative Design.
           </p>
-          <p>
+          <p class="hide_me">
             I've been a bookworm since the 3rd grade, my nose always firmly
             planted in a novel. My favorite Authors to date (and my biggest
             inspirations) would have to be;

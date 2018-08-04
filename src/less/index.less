@@ -173,10 +173,11 @@ span:hover {
     margin: 0 auto;
   }
 
-  @media (max-width: 1600px) {
+  @media (max-width: 1700px) {
     width: 80%;
 
     h4 {
+      margin-top: 5rem;
       margin-right: 1rem;
       margin-left: 1rem;
     }
@@ -227,7 +228,8 @@ span:hover {
     }
 
     h4 {
-      margin-top: 1rem;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
     }
   }
 }
@@ -292,6 +294,8 @@ span:hover {
     text-align: left;
     font-size: 2rem;
   }
+
+  transition: all 1s ease;
 }
 
 .about_content {
@@ -307,6 +311,55 @@ span:hover {
   p {
     font-size: 1.2rem;
     text-align: left;
+  }
+
+  @media (max-width: 1700px) {
+    p {
+      font-size: 1.1rem;
+    }
+  }
+
+  @media (max-width: 1400px) {
+    p {
+      font-size: 1rem;
+    }
+  }
+
+  @media (max-width: 1100px) {
+    p {
+      font-size: 0.99rem;
+    }
+  }
+
+  @media (max-width: 960px) {
+    flex-direction: column;
+
+    p {
+      font-size: 0.83rem;
+    }
+
+    .hide_me {
+      display: none;
+    }
+
+    .about_right {
+      margin-top: 1rem;
+      margin-left: 0;
+    }
+  }
+
+  @media (max-width: 640px) {
+    p {
+      margin-top: 0;
+    }
+
+    .hide_me {
+      display: none;
+    }
+
+    .about_right {
+      margin-top: 5rem;
+    }
   }
 }
 
@@ -343,6 +396,16 @@ span:hover {
     color: white;
     opacity: 0.8;
   }
+
+  @media (max-width: 690px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+
+    h2 {
+      font-size: 1rem;
+    }
+  }
 }
 
 .skills_row {
@@ -378,6 +441,50 @@ span:hover {
   .fix_html5 {
     height: 4.5rem;
     width: auto;
+  }
+
+  @media (max-width: 690px) {
+    img {
+      width: 2.5rem;
+    }
+
+    h4 {
+      font-size: 1rem;
+    }
+
+    .fix_ember {
+      height: 2rem;
+    }
+
+    .fix_babel {
+      height: 4.2rem;
+    }
+
+    .fix_html5 {
+      height: 2.5rem;
+    }
+  }
+
+  @media (max-width: 400px) {
+    img {
+      width: 1.5rem;
+    }
+
+    h4 {
+      font-size: 0.6rem;
+    }
+
+    .fix_ember {
+      height: 1.5rem;
+    }
+
+    .fix_babel {
+      height: 2.2rem;
+    }
+
+    .fix_html5 {
+      height: 1.8rem;
+    }
   }
 }
 
