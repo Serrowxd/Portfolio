@@ -46,6 +46,7 @@ div {
 .main_div {
   transition: opacity 1s ease;
   animation: fadein 1s forwards;
+  transition: all 1s ease;
 }
 span {
   transition: color 1s ease;
@@ -112,11 +113,72 @@ span:hover {
   width: 13rem;
   margin: 0 auto;
 }
+@media (max-width: 1600px) {
+  .main_div {
+    width: 80%;
+  }
+  .main_div h4 {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+}
+@media (max-width: 1300px) {
+  .main_div {
+    width: 95%;
+  }
+}
+@media (max-width: 1100px) {
+  .main_div {
+    width: auto;
+  }
+  .main_div h1 {
+    font-size: 8.5rem;
+  }
+  .main_div h4 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 900px) {
+  .main_div {
+    width: auto;
+  }
+  .main_div h1 {
+    font-size: 8rem;
+  }
+  .main_div h4 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 865px) {
+  .main_div h1 {
+    font-size: 6rem;
+  }
+  .main_div h4 {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 690px) {
+  .main_div h1 {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
+  .main_div h4 {
+    margin-top: 1rem;
+  }
+}
 .main_title {
   min-width: 100%;
   justify-content: space-around;
   margin-bottom: 1rem;
   margin-top: 3rem;
+}
+@media (max-width: 690px) {
+  .main_title {
+    flex-direction: column;
+  }
+  .main_title .fill_text {
+    transform: rotate(90deg);
+  }
 }
 .nav_cont {
   width: 55%;
@@ -128,6 +190,24 @@ span:hover {
   color: white;
   font-size: 1.7rem;
   cursor: pointer;
+}
+@media (max-width: 865px) {
+  .nav_cont {
+    justify-content: space-around;
+  }
+  .nav_cont p {
+    font-size: 1.4rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    margin-top: 5rem;
+  }
+}
+@media (max-width: 690px) {
+  .nav_cont p {
+    font-size: 1.2rem;
+    padding-right: 0.4rem;
+    padding-left: 0.4rem;
+  }
 }
 .about {
   width: 80%;

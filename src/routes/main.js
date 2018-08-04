@@ -1,6 +1,6 @@
 import React from 'react';
 
-import img from '../assets/headshot_bw.png';
+// import img from '../assets/headshot_bw.png';
 
 const Main = () => {
   const fill = '||';
@@ -14,12 +14,12 @@ const Main = () => {
           {' '}
           <span>Web Developer</span>{' '}
         </h4>
-        <h4> {fill} </h4>
+        <h4 class="fill_text"> {fill} </h4>
         <h4>
           {' '}
           <span>Avid Writer</span>{' '}
         </h4>
-        <h4> {fill} </h4>
+        <h4 class="fill_text"> {fill} </h4>
         <h4>
           {' '}
           <span>JavaScript Fanatic</span>{' '}
