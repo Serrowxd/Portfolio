@@ -13,17 +13,26 @@ const Projects = () => {
         <div className="proj_col">
           <img src={img} class="proj_img" alt="manlaw" />
           <h4> Mandracchia Law - Freelance </h4>
-          {button}
+          <a href="https://github.com/Serrowxd/mandracchia-law" target="_blank">
+            {button}
+          </a>
         </div>
         <div className="proj_col">
           <img src={img2} class="proj_img" alt="manlaw" />
           <h4> JobMe - Capstone Project </h4>
-          {button}
+          <a
+            href="https://github.com/Lambda-School-Labs/CS8-jobme"
+            target="_blank"
+          >
+            {button}
+          </a>
         </div>
         <div className="proj_col">
           <img src={img3} class="proj_img" alt="manlaw" />
           <h4 class="github_fix"> Github </h4>
-          {button}
+          <a href="https://github.com/Serrowxd" target="_blank">
+            {button}
+          </a>
         </div>
       </div>
     </div>

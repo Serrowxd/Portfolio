@@ -10,20 +10,11 @@ const Main = () => {
       {/* <img src={img} class="img" alt="headshot" /> */}
       <h1> Kevin Jolley </h1>
       <div className="main_title">
-        <h4>
-          {' '}
-          <span>Web Developer</span>{' '}
-        </h4>
+        <h4> Web Developer </h4>
         <h4 class="fill_text"> {fill} </h4>
-        <h4>
-          {' '}
-          <span>Avid Writer</span>{' '}
-        </h4>
+        <h4> Avid Writer </h4>
         <h4 class="fill_text"> {fill} </h4>
-        <h4>
-          {' '}
-          <span>JavaScript Fanatic</span>{' '}
-        </h4>
+        <h4> JavaScript Fanatic </h4>
       </div>
     </div>
   );

@@ -447,6 +447,10 @@ span:hover {
   text-align: center;
   opacity: 0.8;
 }
+.proj_col a {
+  width: 10rem;
+  align-self: center;
+}
 .proj_col button {
   border: none;
   border-radius: 2px;
@@ -491,6 +495,9 @@ span:hover {
   .proj_col button {
     width: 8rem;
     font-size: 12px;
+  }
+  .proj_col a {
+    width: 8rem;
   }
 }
 .contact {
