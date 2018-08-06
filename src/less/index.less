@@ -1,5 +1,11 @@
 // Global
 
+// Purple
+// @text: rgb(149, 44, 219);
+
+// Blue
+@text: rgb(24, 215, 221);
+
 #root,
 html,
 body {
@@ -79,7 +85,7 @@ div {
   }
 
   p:hover {
-    color: rgb(149, 44, 219);
+    color: @text;
   }
 }
 
@@ -95,7 +101,7 @@ span {
 }
 
 span:hover {
-  color: rgb(149, 44, 219);
+  color: @text;
 }
 
 .ripple {
@@ -104,13 +110,27 @@ span:hover {
 }
 
 /* 47a7f5 */
+
+// Purple
+// .ripple:hover {
+//   background: rgba(184, 33, 243, 0.945)
+//     radial-gradient(circle, transparent 1%, rgba(166, 33, 243, 0.945) 1%)
+//     center/15000%;
+// }
+// .ripple:active {
+//   background-color: rgb(169, 110, 247);
+//   background-size: 100%;
+//   transition: background 0s;
+// }
+
+// Blue
 .ripple:hover {
-  background: rgba(184, 33, 243, 0.945)
-    radial-gradient(circle, transparent 1%, rgba(166, 33, 243, 0.945) 1%)
+  background: rgba(23, 202, 193, 0.945)
+    radial-gradient(circle, transparent 1%, rgba(23, 202, 193, 0.945) 1%)
     center/15000%;
 }
 .ripple:active {
-  background-color: rgb(169, 110, 247);
+  background-color: rgb(0, 255, 242);
   background-size: 100%;
   transition: background 0s;
 }
@@ -571,7 +591,8 @@ span:hover {
     text-transform: uppercase;
     cursor: pointer;
     color: white;
-    background-color: rgba(149, 33, 243, 0.91);
+    // background-color: rgba(149, 33, 243, 0.91);
+    background-color: rgba(33, 218, 208, 0.678);
     box-shadow: 0 0 4px #999;
     outline: none;
   }
