@@ -21,8 +21,8 @@ const Skills = () => {
     <div className="main_div skills">
       <h1> Skills </h1>
       <h2>
-        My primary focus is on JavaScript Frameworks, but I'm always working to
-        expand my horizons both in and out of my field.
+        My primary focus lies in JavaScript, but I keep my horizons broad and
+        challenge myself with something new every day.
       </h2>
       <div className="skills_row">
         <div className="skills_col">

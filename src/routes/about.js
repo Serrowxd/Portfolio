@@ -11,24 +11,24 @@ const About = () => {
       <div className="about_content">
         <div className="about_left">
           <p>
-            I'm Kevin, a 23 year old programmer based out of my parents
-            basement. I'm very analytical, optimistic, and a massive
-            perfectionist. My primary focus is to become a well-rounded Engineer
-            both in Web Design and Software Develeopment.
+            I'm a 23 year old programmer based out of Houston Texas. I'm very
+            analytical, optimistic, and a massive perfectionist. My primary
+            focus is to become a well-rounded Engineer both in Web Design and
+            Software Develeopment.
           </p>
 
           <p>
             If I could summarize myself into a paragraph, it would go something
             like this; <br />
-            An optimistic pessimist with a keen sense of misdirection, backed
-            with an incredible amount of luck, a group of very patient and
-            caring friends (Jared, Austin, Randall, Felix, Shen), and an
+            An optimistic perfectionist with a keen sense of misdirection,
+            backed with an incredible amount of luck, a group of very patient
+            and caring friends (Jared, Austin, Randall, Felix, Shen), and an
             unbreakable desire to become the absolute best at what I do - no
             matter the cost.
           </p>
 
           <p class="hide_me">
-            A bit more in-depth on me; <br />
+            A bit more in-depth, <br />
             I've got a pretty heavy background in computers and gaming, starting
             from when I was very young (2-3 years old). While they may not mean
             a lot in the real world, I have numerable gaming achievements that
@@ -68,8 +68,9 @@ const About = () => {
             date are currently{' '}
             <span>
               <strong>TBD</strong>
-            </span>. Creative Writing (poetry included) is something I'm
-            incredibly passionate about.
+            </span>
+            . Creative Writing (poetry included) is something I'm incredibly
+            passionate about.
           </p>
           <p>
             Music has always been something that I'm passionate about, though
