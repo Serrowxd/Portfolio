@@ -516,3 +516,6 @@ span:hover {
   color: white;
   opacity: 0.8;
 }
+.contact div {
+  align-self: center;
+}

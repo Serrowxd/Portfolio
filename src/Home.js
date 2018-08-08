@@ -2,11 +2,7 @@ import React, { Component } from 'react';
 import './css/index.css';
 
 // Comp Imports
-import Main from './routes/main.js';
-import About from './routes/about.js';
-import Skills from './routes/skills.js';
-import Projects from './routes/projects.js';
-import Contact from './routes/contact.js';
+import { Main, About, Skills, Projects, Contact } from './reducer/index';
 
 class Home extends Component {
   constructor(props) {

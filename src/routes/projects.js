@@ -13,7 +13,11 @@ const Projects = () => {
         <div className="proj_col">
           <img src={img} class="proj_img" alt="manlaw" />
           <h4> Mandracchia Law - Freelance </h4>
-          <a href="https://github.com/Serrowxd/mandracchia-law" target="_blank">
+          <a
+            href="https://github.com/Serrowxd/mandracchia-law"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             {button}
           </a>
         </div>
@@ -23,6 +27,7 @@ const Projects = () => {
           <a
             href="https://github.com/Lambda-School-Labs/CS8-jobme"
             target="_blank"
+            rel="noopener noreferrer"
           >
             {button}
           </a>
@@ -30,7 +35,11 @@ const Projects = () => {
         <div className="proj_col">
           <img src={img3} class="proj_img" alt="manlaw" />
           <h4 class="github_fix"> Github </h4>
-          <a href="https://github.com/Serrowxd" target="_blank">
+          <a
+            href="https://github.com/Serrowxd"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             {button}
           </a>
         </div>
