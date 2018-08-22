@@ -11,7 +11,7 @@ const About = () => {
       <div className="about_content">
         <div className="about_left">
           <p>
-            I'm a 23 year old programmer based out of Houston Texas. I'm very
+            I'm a 23 year old programmer based out of Houston, Texas. I'm very
             analytical, optimistic, and a massive perfectionist. My primary
             focus is to become a well-rounded Engineer both in Web Design and
             Software Develeopment.
@@ -24,10 +24,11 @@ const About = () => {
             backed with an incredible amount of luck, a group of very patient
             and caring friends (Jared, Austin, Randall, Felix, Shen), and an
             unbreakable desire to become the absolute best at what I do - no
-            matter the cost.
+            matter the cost. I'm a firm believer in constant progression, so I'm
+            always setting a higher marker for myself to achieve.
           </p>
 
-          <p class="hide_me">
+          <p className="hide_me">
             A bit more in-depth, <br />
             I've got a pretty heavy background in computers and gaming, starting
             from when I was very young (2-3 years old). While they may not mean
@@ -55,7 +56,7 @@ const About = () => {
             Creative/Fictional Writing, Dungeons & Dragons, Art, Photography,
             Fan-Fiction, Music, and Creative Design.
           </p>
-          <p class="hide_me">
+          <p className="hide_me">
             I've been a bookworm since the 3rd grade, my nose always firmly
             planted in a novel. My favorite Authors to date (and my biggest
             inspirations) would have to be;

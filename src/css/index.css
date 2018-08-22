@@ -232,7 +232,7 @@ span:hover {
   }
 }
 .about {
-  width: 80%;
+  width: 90%;
   transition: all 1s ease;
 }
 .about h1 {
@@ -515,6 +515,7 @@ span:hover {
 .contact p {
   color: white;
   opacity: 0.8;
+  font-size: 3rem;
 }
 .contact div {
   align-self: center;
