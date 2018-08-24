@@ -397,6 +397,7 @@ span:hover {
 }
 .projects {
   width: 80%;
+  overflow: auto;
 }
 .projects h1 {
   font-size: 2rem;
