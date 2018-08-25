@@ -5,10 +5,9 @@ const Project = props => {
   return (
     <div className="proj_row">
       <div className="proj_col">
-        <img src={props.img} class="proj_img" alt={props.alt} />
         <h4>{props.title}</h4>
         <a href={props.link} target="_blank" rel="noopener noreferrer">
-          {button}
+          <img src={props.img} class="proj_img" alt={props.alt} />
         </a>
       </div>
     </div>

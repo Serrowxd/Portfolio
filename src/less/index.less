@@ -274,6 +274,7 @@ span:hover {
   margin: 0 auto;
   justify-content: space-around;
   margin-bottom: 6rem;
+
   p {
     color: white;
     font-size: 1.7rem;
@@ -511,8 +512,7 @@ span:hover {
 // Projects
 
 .projects {
-  width: 80%;
-  overflow: auto;
+  width: 90%;
 
   h1 {
     font-size: 2rem;
@@ -538,47 +538,126 @@ span:hover {
   }
 }
 
+.proj_container {
+  // margin-top: 6rem;
+  overflow: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 35rem;
+}
+
 .proj_row {
-  justify-content: space-around;
+  justify-content: space-evenly;
+  // img {
+  //   height: 20rem;
+  //   width: auto;
+  //   transition: height 0.5s ease;
+
+  //   &:hover {
+  //     height: 22rem;
+  //   }
+  // }
+
+  // @media (max-width: 1500px) {
+  //   img {
+  //     height: 15rem;
+
+  //     &:hover {
+  //       height: 17rem;
+  //     }
+  //   }
+  // }
+
+  // @media (max-width: 920px) {
+  //   img {
+  //     height: 10rem;
+
+  //     &:hover {
+  //       height: 12rem;
+  //     }
+  //   }
+  // }
+
+  // @media (max-width: 620px) {
+  //   img {
+  //     height: 8rem;
+
+  //     &:hover {
+  //       height: 10rem;
+  //     }
+  //   }
+  // }
+
+  // @media (max-width: 400px) {
+  // }
+}
+
+.proj_col {
+  flex-direction: column;
+
+  &:hover {
+    img {
+      height: 22rem;
+    }
+
+    h4 {
+      color: @text;
+    }
+  }
+
   img {
     height: 20rem;
     width: auto;
+    transition: height 0.5s ease;
   }
 
   @media (max-width: 1500px) {
     img {
       height: 15rem;
     }
+
+    &:hover {
+      img {
+        height: 17rem;
+      }
+    }
   }
 
   @media (max-width: 920px) {
     img {
       height: 10rem;
+
+      &:hover {
+        height: 12rem;
+      }
     }
   }
 
   @media (max-width: 620px) {
     img {
       height: 8rem;
+
+      &:hover {
+        height: 10rem;
+      }
     }
   }
 
   @media (max-width: 400px) {
   }
-}
-
-.proj_col {
-  flex-direction: column;
 
   h4 {
     font-size: 1.5rem;
     text-align: center;
     opacity: 0.8;
+    margin-bottom: 1rem;
+    transition: color 0.5s ease;
   }
 
   a {
-    width: 10rem;
-    align-self: center;
+    width: auto;
+    margin-bottom: 1rem;
   }
 
   button {
@@ -616,17 +695,17 @@ span:hover {
     }
   }
 
-  @media (max-width: 735px) {
-    .github_fix {
-      margin-bottom: 0.85rem;
-    }
-  }
+  // @media (max-width: 735px) {
+  //   .github_fix {
+  //     margin-bottom: 0.85rem;
+  //   }
+  // }
 
-  @media (max-width: 690px) {
-    .github_fix {
-      margin-bottom: 1.4rem;
-    }
-  }
+  // @media (max-width: 690px) {
+  //   .github_fix {
+  //     margin-bottom: 1.4rem;
+  //   }
+  // }
 
   @media (max-width: 620px) {
     button {
@@ -664,4 +743,44 @@ span:hover {
   div {
     align-self: center;
   }
+}
+
+// Worky Worky, Fixy Fixy
+
+.worky {
+  width: 80%;
+  height: 70%;
+  flex-direction: column;
+
+  img {
+    height: 20rem;
+    width: auto;
+  }
+
+  p {
+    color: white;
+    opacity: 0.8;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+  }
+
+  button {
+    border: none;
+    border-radius: 2px;
+    width: 10rem;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    align-self: center;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    // background-color: rgba(149, 33, 243, 0.91);
+    background-color: rgba(33, 218, 208, 0.678);
+    box-shadow: 0 0 4px #999;
+    outline: none;
+  }
+}
+
+.none {
+  display: none;
 }

@@ -396,8 +396,7 @@ span:hover {
   }
 }
 .projects {
-  width: 80%;
-  overflow: auto;
+  width: 90%;
 }
 .projects h1 {
   font-size: 2rem;
@@ -418,39 +417,64 @@ span:hover {
     font-size: 1.5rem;
   }
 }
+.proj_container {
+  overflow: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 35rem;
+}
 .proj_row {
-  justify-content: space-around;
-}
-.proj_row img {
-  height: 20rem;
-  width: auto;
-}
-@media (max-width: 1500px) {
-  .proj_row img {
-    height: 15rem;
-  }
-}
-@media (max-width: 920px) {
-  .proj_row img {
-    height: 10rem;
-  }
-}
-@media (max-width: 620px) {
-  .proj_row img {
-    height: 8rem;
-  }
+  justify-content: space-evenly;
 }
 .proj_col {
   flex-direction: column;
+}
+.proj_col:hover img {
+  height: 22rem;
+}
+.proj_col:hover h4 {
+  color: #18d7dd;
+}
+.proj_col img {
+  height: 20rem;
+  width: auto;
+  transition: height 0.5s ease;
+}
+@media (max-width: 1500px) {
+  .proj_col img {
+    height: 15rem;
+  }
+  .proj_col:hover img {
+    height: 17rem;
+  }
+}
+@media (max-width: 920px) {
+  .proj_col img {
+    height: 10rem;
+  }
+  .proj_col img:hover {
+    height: 12rem;
+  }
+}
+@media (max-width: 620px) {
+  .proj_col img {
+    height: 8rem;
+  }
+  .proj_col img:hover {
+    height: 10rem;
+  }
 }
 .proj_col h4 {
   font-size: 1.5rem;
   text-align: center;
   opacity: 0.8;
+  margin-bottom: 1rem;
+  transition: color 0.5s ease;
 }
 .proj_col a {
-  width: 10rem;
-  align-self: center;
+  width: auto;
+  margin-bottom: 1rem;
 }
 .proj_col button {
   border: none;
@@ -482,16 +506,6 @@ span:hover {
     font-size: 0.8rem;
   }
 }
-@media (max-width: 735px) {
-  .proj_col .github_fix {
-    margin-bottom: 0.85rem;
-  }
-}
-@media (max-width: 690px) {
-  .proj_col .github_fix {
-    margin-bottom: 1.4rem;
-  }
-}
 @media (max-width: 620px) {
   .proj_col button {
     width: 8rem;
@@ -520,4 +534,36 @@ span:hover {
 }
 .contact div {
   align-self: center;
+}
+.worky {
+  width: 80%;
+  height: 70%;
+  flex-direction: column;
+}
+.worky img {
+  height: 20rem;
+  width: auto;
+}
+.worky p {
+  color: white;
+  opacity: 0.8;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+.worky button {
+  border: none;
+  border-radius: 2px;
+  width: 10rem;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  align-self: center;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+  background-color: rgba(33, 218, 208, 0.678);
+  box-shadow: 0 0 4px #999;
+  outline: none;
+}
+.none {
+  display: none;
 }

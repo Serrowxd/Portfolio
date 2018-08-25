@@ -10,22 +10,87 @@ const Projects = () => {
   const button = <button class="ripple"> Code </button>;
   return (
     <div className="main_div projects">
-      <h1> I will populate this with my projects as they become available! </h1>
-
-      <div className="proj_row">
+      <div className="proj_container">
         <Project
           img={img}
+          title="Mandracchia Law"
           alt="mandlaw"
           link="https://github.com/Serrowxd/mandracchia-law"
         />
 
         <Project
           img={img2}
+          title="Rcruit"
           alt="jobme"
           link="https://github.com/Lambda-School-Labs/CS8-jobme"
         />
 
-        <Project img={img3} alt="github" link="https://github.com/Serrowxd" />
+        <Project
+          img={img3}
+          title="Github"
+          alt="github"
+          link="https://github.com/Serrowxd"
+        />
+        <Project
+          img={img3}
+          title="Github"
+          alt="github"
+          link="https://github.com/Serrowxd"
+        />
+        <Project
+          img={img3}
+          title="Github"
+          alt="github"
+          link="https://github.com/Serrowxd"
+        />
+        <Project
+          img={img3}
+          title="Github"
+          alt="github"
+          link="https://github.com/Serrowxd"
+        />
+        <Project
+          img={img3}
+          title="Github"
+          alt="github"
+          link="https://github.com/Serrowxd"
+        />
+        <Project
+          img={img3}
+          title="Github"
+          alt="github"
+          link="https://github.com/Serrowxd"
+        />
+        <Project
+          img={img3}
+          title="Github"
+          alt="github"
+          link="https://github.com/Serrowxd"
+        />
+        <Project
+          img={img3}
+          title="Github"
+          alt="github"
+          link="https://github.com/Serrowxd"
+        />
+        <Project
+          img={img3}
+          title="Github"
+          alt="github"
+          link="https://github.com/Serrowxd"
+        />
+        <Project
+          img={img3}
+          title="Github"
+          alt="github"
+          link="https://github.com/Serrowxd"
+        />
+        <Project
+          img={img3}
+          title="Github"
+          alt="github"
+          link="https://github.com/Serrowxd"
+        />
       </div>
     </div>
   );
