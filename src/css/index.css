@@ -13,6 +13,9 @@ html {
 div {
   display: flex;
 }
+.none {
+  display: none;
+}
 .background_container {
   margin: 0 !important;
   padding: 0;
@@ -431,38 +434,48 @@ span:hover {
   flex-direction: column;
 }
 .proj_col:hover img {
-  height: 22rem;
+  opacity: 0.3;
 }
 .proj_col:hover h4 {
   color: #18d7dd;
 }
+.proj_col:hover .card_text {
+  opacity: 1 !important;
+}
+.proj_col .proj_card {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.proj_col .proj_card .card_text {
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  margin-top: 1rem;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.proj_col .proj_card .card_text p {
+  font-size: 1.5rem;
+}
 .proj_col img {
-  height: 20rem;
-  width: auto;
-  transition: height 0.5s ease;
+  height: 22rem;
+  width: 25rem;
+  transition: opacity 0.5s ease;
 }
 @media (max-width: 1500px) {
   .proj_col img {
     height: 15rem;
-  }
-  .proj_col:hover img {
-    height: 17rem;
   }
 }
 @media (max-width: 920px) {
   .proj_col img {
     height: 10rem;
   }
-  .proj_col img:hover {
-    height: 12rem;
-  }
 }
 @media (max-width: 620px) {
   .proj_col img {
     height: 8rem;
-  }
-  .proj_col img:hover {
-    height: 10rem;
   }
 }
 .proj_col h4 {
@@ -546,7 +559,7 @@ span:hover {
   overflow: auto;
 }
 .worky {
-  width: 80%;
+  width: auto;
   height: 80%;
   flex-direction: column;
 }
@@ -573,7 +586,4 @@ span:hover {
   background-color: rgba(33, 218, 208, 0.678);
   box-shadow: 0 0 4px #999;
   outline: none;
-}
-.none {
-  display: none;
 }

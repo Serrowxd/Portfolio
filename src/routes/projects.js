@@ -16,6 +16,10 @@ const Projects = () => {
           title="Mandracchia Law"
           alt="mandlaw"
           link="https://github.com/Serrowxd/mandracchia-law"
+          item1="React"
+          item2="React-Strap"
+          item3="CSS3"
+          item4="~Project was Moved~"
         />
 
         <Project
@@ -23,6 +27,10 @@ const Projects = () => {
           title="Rcruit"
           alt="jobme"
           link="https://github.com/Lambda-School-Labs/CS8-jobme"
+          item1="React / Redux"
+          item2="Styled-Components"
+          item3="Node / MongoDB"
+          item4="JSON Auth / Passport"
         />
 
         <Project

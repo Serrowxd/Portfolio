@@ -27,6 +27,10 @@ div {
   display: flex;
 }
 
+.none {
+  display: none;
+}
+
 .background_container {
   margin: 0 !important;
   padding: 0;
@@ -598,49 +602,60 @@ span:hover {
 
   &:hover {
     img {
-      height: 22rem;
+      opacity: 0.3;
     }
 
     h4 {
       color: @text;
     }
+
+    .card_text {
+      opacity: 1 !important;
+    }
+  }
+
+  .proj_card {
+    width: 100%;
+    height: auto;
+    position: relative;
+
+    .card_text {
+      // justify-content: center;
+      flex-direction: column;
+      position: absolute;
+      width: 100%;
+      margin-top: 1rem;
+      opacity: 0;
+
+      transition: opacity 0.5s ease;
+
+      p {
+        font-size: 1.5rem;
+      }
+    }
   }
 
   img {
-    height: 20rem;
-    width: auto;
-    transition: height 0.5s ease;
+    height: 22rem;
+    width: 25rem;
+    transition: opacity 0.5s ease;
   }
 
   @media (max-width: 1500px) {
     img {
       height: 15rem;
     }
-
-    &:hover {
-      img {
-        height: 17rem;
-      }
-    }
   }
 
   @media (max-width: 920px) {
     img {
       height: 10rem;
-
-      &:hover {
-        height: 12rem;
-      }
     }
   }
 
   @media (max-width: 620px) {
     img {
       height: 8rem;
-
-      &:hover {
-        height: 10rem;
-      }
     }
   }
 
@@ -760,7 +775,7 @@ span:hover {
 // Worky Worky, Fixy Fixy
 
 .worky {
-  width: 80%;
+  width: auto;
   height: 80%;
   flex-direction: column;
 
@@ -791,8 +806,4 @@ span:hover {
     box-shadow: 0 0 4px #999;
     outline: none;
   }
-}
-
-.none {
-  display: none;
 }
