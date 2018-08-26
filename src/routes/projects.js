@@ -105,3 +105,5 @@ const Projects = () => {
 };
 
 export default Projects;
+
+// Projects have no reactivity below 1920x1080 - will need to modify this.
