@@ -11,6 +11,7 @@ Started off as a draft, ended up as my website. ReactJS with LESS.
 
 - Add Styled-Components to help relieve the weight of broken styling?
 - Publications section?
+- Add color based on component being rendered? Assistance with navigation.
 
 - Project Section Specific:
   - Refactor project section to map an array that is passed to the props.
