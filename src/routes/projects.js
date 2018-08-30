@@ -114,6 +114,18 @@ const Projects = () => {
           alt="github"
           link="https://github.com/Serrowxd"
         />
+        <Project
+          img={img3}
+          title="Github"
+          alt="github"
+          link="https://github.com/Serrowxd"
+        />
+        <Project
+          img={img3}
+          title="Github"
+          alt="github"
+          link="https://github.com/Serrowxd"
+        />
       </div>
     </div>
   );
