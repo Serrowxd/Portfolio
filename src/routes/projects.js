@@ -5,27 +5,27 @@ import Project from '../components/projectConst';
 import img from '../assets/manlaw.png';
 import img2 from '../assets/job.png';
 import img3 from '../assets/github.png';
+import img4 from '../assets/notedcard.png';
 
 const Projects = () => {
-  const button = <button class="ripple"> Code </button>;
   return (
     <div className="main_div projects">
       <div className="proj_container">
         <Project
-          img={img}
-          title="Mandracchia Law"
-          alt="mandlaw"
-          link="https://github.com/Serrowxd/mandracchia-law"
+          img={img4}
+          title="Noted"
+          alt="Noted"
+          link="https://github.com/Serrowxd/Noted"
           item1="React"
-          item2="React-Strap"
-          item3="CSS3"
-          item4="~Project was Moved~"
+          item2="Styled-Components"
+          item3="LESS"
+          item4="Node/Django, MongoDB"
         />
 
         <Project
           img={img2}
           title="Rcruit"
-          alt="jobme"
+          alt="Rcruit"
           link="https://github.com/Lambda-School-Labs/CS8-jobme"
           item1="React / Redux"
           item2="Styled-Components"
@@ -34,10 +34,25 @@ const Projects = () => {
         />
 
         <Project
+          img={img}
+          title="Mandracchia Law"
+          alt="ManLaw"
+          link="https://github.com/Serrowxd/mandracchia-law"
+          item1="React"
+          item2="React-Strap"
+          item3="CSS3"
+          item4="~Project was Moved~"
+        />
+
+        <Project
           img={img3}
           title="Github"
           alt="github"
           link="https://github.com/Serrowxd"
+          item1="My Github"
+          item2="Updated Daily"
+          item3=""
+          item4=""
         />
         <Project
           img={img3}
