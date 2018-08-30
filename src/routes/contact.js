@@ -50,11 +50,11 @@ const Contact = () => {
           <h3> CodeSignal </h3>
         </a>
         <a
-          href="https://twitter.com/serrowxd"
+          href="https://www.instagram.com/serrowxd/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h3> Twitter </h3>
+          <h3> Instagram </h3>
         </a>
       </div>
     </div>
