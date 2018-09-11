@@ -14,7 +14,11 @@ Started off as a draft, ended up as my website. ReactJS with LESS.
 - Add color based on component being rendered? Assistance with navigation.
 
 - Project Section Specific:
+
   - Refactor project section to map an array that is passed to the props.
   - Mobile-friendly option for the overlay text.
   - New overlay images in the project section - maybe a new layout entirely? Feels forced.
   - Maybe clicking a picture will route you to a new page that displays the information, rather than having the overlay itself do it. A little extra work but it would come out a little better.
+
+- Navigation:
+  - Probably need to add an <active> tag so that users will know which page they are on.
