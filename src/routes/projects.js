@@ -40,7 +40,7 @@ const Projects = () => {
           img={manlaw}
           title="Mandracchia Law"
           alt="ManLaw"
-          link="https://github.com/Serrowxd/mandracchia-law"
+          link="https://github.com/Serrowxd/mandracchia_refactor"
           item1="React"
           item2="Styled-Components"
           item3="LESS"
@@ -48,10 +48,21 @@ const Projects = () => {
         />
 
         <Project
+          img={manlaw}
+          title="Mandracchia Law #2"
+          alt="ManLaw"
+          link="https://github.com/Serrowxd/mandracchia-law"
+          item1="React"
+          item2="React-Strap"
+          item3="CSS"
+          item4="Refactored"
+        />
+
+        <Project
           img={sin}
           title="SinForsaken"
           alt="SinForsaken"
-          link="https://github.com/Serrowxd"
+          link="https://github.com/Serrowxd/SinForsaken_React"
           item1="React"
           item2="Styled-Components"
           item3="LESS"
@@ -71,7 +82,7 @@ const Projects = () => {
           img={port2}
           title="Portfolio #2"
           alt="github"
-          link="https://github.com/Serrowxd"
+          link="https://github.com/Serrowxd/soothing_resume"
           item1="HTML5"
           item2="LESS"
           item3="JQuery"
