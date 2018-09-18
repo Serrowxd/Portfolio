@@ -9,6 +9,7 @@ class Home extends Component {
     super(props);
     this.state = {
       comp: <Main />,
+      active: false,
     };
   }
 
