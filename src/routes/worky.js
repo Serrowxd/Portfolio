@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Contact, WorkyWorky } from '../reducer';
+import { Social, WorkyWorky } from '../reducer';
 
 class Working extends Component {
   constructor(props) {
@@ -21,7 +21,7 @@ class Working extends Component {
         {this.state.comp}
         <button
           className={this.state.active ? '' : 'none'}
-          onClick={this.handleClick.bind(this, <Contact />)}
+          onClick={this.handleClick.bind(this, <Social />)}
         >
           You can't stop me!
         </button>

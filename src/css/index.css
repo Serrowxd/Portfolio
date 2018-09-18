@@ -531,36 +531,51 @@ span:hover {
     width: 8rem;
   }
 }
-.contact {
+.social {
   width: 80%;
   flex-direction: row;
 }
-.contact h1 {
+.social h1 {
   font-size: 3rem;
 }
-.contact h2 {
+.social h2 {
   color: white;
   opacity: 0.8;
   text-align: left;
   font-size: 2rem;
 }
-.contact p {
+.social p {
   color: white;
   opacity: 0.8;
   font-size: 2rem;
 }
-.contact div {
+.social div {
   align-self: center;
 }
-.cont_row {
+.soc_row {
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
   justify-content: space-evenly;
 }
-.cont_col {
+.soc_col {
   flex-direction: column;
   overflow: auto;
+  padding: 5rem;
+}
+.soc_col h1 {
+  font-size: 4rem;
+}
+.soc_col a {
+  text-decoration: none;
+}
+.soc_col h4 {
+  font-size: 2rem;
+  transition: color 0.5s ease;
+}
+.soc_col h4:hover {
+  color: #18d7dd;
+  cursor: pointer;
 }
 .contact_form {
   flex-direction: column;

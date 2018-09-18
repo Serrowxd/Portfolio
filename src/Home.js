@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './css/index.css';
 
 // Comp Imports
-import { Main, About, Skills, Projects, Contact, Working } from './reducer';
+import { Main, About, Skills, Projects, Social, Working } from './reducer';
 
 class Home extends Component {
   constructor(props) {
@@ -26,7 +26,7 @@ class Home extends Component {
             <p onClick={this.handleClick.bind(this, <About />)}> About </p>
             <p onClick={this.handleClick.bind(this, <Skills />)}> Skills </p>
             <p onClick={this.handleClick.bind(this, <Projects />)}>Projects</p>
-            <p onClick={this.handleClick.bind(this, <Working />)}> Contact </p>
+            <p onClick={this.handleClick.bind(this, <Social />)}> Social </p>
           </div>
         </div>
       </div>

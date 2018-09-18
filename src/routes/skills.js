@@ -19,7 +19,7 @@ import img15 from '../assets/skills/babel.png';
 const Skills = () => {
   return (
     <div className="main_div skills">
-      <h1> Skills </h1>
+      {/* <h1> Skills </h1> */}
       <h2>
         My primary focus lies in JavaScript, but I keep my horizons broad and
         challenge myself with something new every day.

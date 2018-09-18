@@ -738,9 +738,9 @@ span:hover {
   }
 }
 
-// Contact
+// Social
 
-.contact {
+.social {
   width: 80%;
   flex-direction: row;
   h1 {
@@ -765,16 +765,35 @@ span:hover {
   }
 }
 
-.cont_row {
+.soc_row {
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
   justify-content: space-evenly;
 }
 
-.cont_col {
+.soc_col {
   flex-direction: column;
   overflow: auto;
+  padding: 5rem;
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  h4 {
+    font-size: 2rem;
+    transition: color 0.5s ease;
+
+    &:hover {
+      color: @text;
+      cursor: pointer;
+    }
+  }
 }
 
 .contact_form {
