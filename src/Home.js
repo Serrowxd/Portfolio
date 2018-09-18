@@ -36,3 +36,5 @@ class Home extends Component {
 }
 
 export default Home;
+
+// onClick should set the color to blue? Possibly w/ props
