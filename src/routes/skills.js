@@ -14,7 +14,7 @@ import img11 from '../assets/skills/less.png';
 import img12 from '../assets/skills/css3.png';
 import img13 from '../assets/skills/node.png';
 import img14 from '../assets/skills/mongodb.png';
-import img15 from '../assets/skills/babel.png';
+import img15 from '../assets/skills/csharp.png';
 
 const Skills = () => {
   return (
@@ -63,7 +63,7 @@ const Skills = () => {
           <img src={img14} class="skills_img" alt="img" />
           <h4> MongoDB </h4>
           <img src={img15} class="skills_img fix_babel" alt="img" />
-          <h4> Babel </h4>
+          <h4> C# </h4>
         </div>
       </div>
     </div>

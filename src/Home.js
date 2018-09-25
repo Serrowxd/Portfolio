@@ -37,4 +37,4 @@ class Home extends Component {
 
 export default Home;
 
-// onClick should set the color to blue? Possibly w/ props
+// onClick should change the className, maybe send a specific class to be rendered in state?
