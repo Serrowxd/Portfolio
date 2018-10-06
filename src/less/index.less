@@ -6,6 +6,14 @@
 // Blue
 @text: rgb(24, 215, 221);
 
+// Breakpoints
+
+@widescreen: ~'(max-width: 1199px)~';
+@desktop: ~'(max-width: 991px)~';
+@tablet: ~'(max-width: 767px) ~';
+@phone: ~'(max-width: 480px) ~';
+@smallphone: ~'(max-width: 320px)';
+
 #root,
 html,
 body {
@@ -52,6 +60,10 @@ div {
 
   animation: fadein 1s forwards;
 
+  @media (max-width: 1400px) {
+    background-size: 120%;
+  }
+
   @media (max-width: 1200px) {
     background-size: 150%;
   }
@@ -60,13 +72,23 @@ div {
     background-size: 200%;
   }
 
+  @media (max-width: 700px) {
+    background-size: 220%;
+  }
+
+  @media (max-width: 615px) {
+    background-size: 240%;
+  }
+
   @media (max-width: 500px) {
-    background-size: 250%;
+    background-size: 270%;
   }
 
   @media (max-width: 375px) {
     background-size: 310%;
   }
+
+  // Refactor this
 }
 
 .comp_container {
@@ -767,7 +789,7 @@ span:hover {
 
 .soc_row {
   flex-direction: row;
-  flex-wrap: wrap;
+  // flex-wrap: wrap;
   width: 100%;
   justify-content: space-evenly;
 }
@@ -783,16 +805,17 @@ span:hover {
 
   a {
     text-decoration: none;
-  }
-
-  h4 {
-    font-size: 2rem;
+    color: snow;
     transition: color 0.5s ease;
 
     &:hover {
       color: @text;
       cursor: pointer;
     }
+  }
+
+  h4 {
+    font-size: 2rem;
   }
 }
 
