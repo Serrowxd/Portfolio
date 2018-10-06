@@ -54,7 +54,7 @@ const About = () => {
               I see every day as an opoprtunity to push the boundaries, to go
               beyond what I ever thought capable and achieve new heights that I
               have only ever dreamed of. There are only so many hours in the
-              day, I do everything I can to make the most of them.
+              day, so I do everything I can to make the most of them.
             </p>
             <p id="quotetext">
               "I always get to where I'm going by walking away from where I've
