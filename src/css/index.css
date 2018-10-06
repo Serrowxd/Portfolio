@@ -297,9 +297,6 @@ span:hover {
   .about_content p {
     font-size: 0.83rem;
   }
-  .about_content .hide_me {
-    display: none;
-  }
   .about_content .about_right {
     margin-top: 1rem;
     margin-left: 0;
@@ -308,9 +305,6 @@ span:hover {
 @media (max-width: 640px) {
   .about_content p {
     margin-top: 0;
-  }
-  .about_content .hide_me {
-    display: none;
   }
   .about_content .about_right {
     margin-top: 5rem;
@@ -325,6 +319,20 @@ span:hover {
   width: 90%;
   margin-left: 1rem;
   flex-direction: column;
+}
+.about_text {
+  width: 100%;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  flex-direction: column;
+  overflow: auto;
+  height: 50vh;
+}
+#quotetext {
+  margin-top: 2rem;
+  color: #18d7dd;
+  font-style: italic;
+  text-align: center;
 }
 .skills {
   width: 80%;
