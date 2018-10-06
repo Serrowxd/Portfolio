@@ -29,7 +29,7 @@ const About = () => {
             I'm incredibly proud of;
             <ul>
               <li>
-                Rank #55 Feral Druid World - World of Warcraft |{' '}
+                World Rank #55 Feral Druid - World of Warcraft |{' '}
                 <strong>2017-2018</strong>
               </li>
               <li>
@@ -50,6 +50,12 @@ const About = () => {
             process of publishing my own book, name and release date are
             currently <strong>TBD</strong>. Creative Writing (poetry included)
             is something I'm incredibly passionate about.
+            <p>
+              I see every day as an opoprtunity to push the boundaries, to go
+              beyond what I ever thought capable and achieve new heights that I
+              have only ever dreamed of. There are only so many hours in the
+              day, I do everything I can to make the most of them.
+            </p>
             <p id="quotetext">
               "I always get to where I'm going by walking away from where I've
               been"
