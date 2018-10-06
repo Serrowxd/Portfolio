@@ -7,7 +7,7 @@ const About = () => {
       <div className="about_content">
         <div className="about_text">
           <p>
-            I'm a 23 year old programmer based out of Houston, Texas. I'm very
+            I'm a 24 year old programmer based out of Houston, Texas. I'm very
             analytical, optimistic, and a massive perfectionist. My primary
             focus is to become a well-rounded Engineer both in Web Design and
             Software Develeopment. If I could summarize myself into a paragraph,
