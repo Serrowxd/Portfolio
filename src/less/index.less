@@ -8,10 +8,11 @@
 
 // Breakpoints
 
-@widescreen: ~'(max-width: 1199px)~';
-@desktop: ~'(max-width: 991px)~';
-@tablet: ~'(max-width: 767px) ~';
-@phone: ~'(max-width: 480px) ~';
+@ultrawidescreen: ~'(max-width: 1600px)';
+@widescreen: ~'(max-width: 1199px)';
+@desktop: ~'(max-width: 991px)';
+@tablet: ~'(max-width: 767px)';
+@phone: ~'(max-width: 480px)';
 @smallphone: ~'(max-width: 320px)';
 
 #root,
@@ -671,6 +672,24 @@ span:hover {
 
       p {
         font-size: 1.5rem;
+
+        @media @ultrawidescreen {
+          font-size: 1.2rem;
+        }
+
+        @media @widescreen {
+          font-size: 1rem;
+        }
+
+        @media @desktop {
+          font-size: 0.9rem;
+        }
+        @media @tablet {
+          font-size: 0.7rem;
+        }
+        @media @phone {
+          font-size: 0.6rem;
+        }
       }
     }
   }

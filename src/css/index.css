@@ -481,6 +481,31 @@ span:hover {
 .proj_col .proj_card .card_text p {
   font-size: 1.5rem;
 }
+@media (max-width: 1600px) {
+  .proj_col .proj_card .card_text p {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 1199px) {
+  .proj_col .proj_card .card_text p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 991px) {
+  .proj_col .proj_card .card_text p {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 767px) {
+  .proj_col .proj_card .card_text p {
+    font-size: 0.7rem;
+  }
+}
+@media (max-width: 480px) {
+  .proj_col .proj_card .card_text p {
+    font-size: 0.6rem;
+  }
+}
 .proj_col img {
   height: 22rem;
   width: 25rem;

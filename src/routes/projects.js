@@ -8,7 +8,7 @@ import manlaw from '../assets/projects/manlaw.png';
 import port from '../assets/projects/port.png';
 import port2 from '../assets/projects/port2.png';
 import sin from '../assets/projects/sin.png';
-import github from '../assets/github.png';
+import oncedaily from '../assets/projects/yas.png';
 
 const Projects = () => {
   return (
@@ -34,6 +34,17 @@ const Projects = () => {
           item2="Styled-Components"
           item3="Node / MongoDB"
           item4="JSON Auth / Passport"
+        />
+
+        <Project
+          img={oncedaily}
+          title="Once Daily"
+          alt="oncedaily"
+          link="https://github.com/Serrowxd/Once_Daily"
+          item1="A new Website"
+          item2="Every Day"
+          item3="HTML/LESS/JQuery"
+          item4="Updated Daily"
         />
 
         <Project
@@ -86,12 +97,6 @@ const Projects = () => {
           item1="HTML5"
           item2="LESS"
           item3="JQuery"
-        />
-        <Project
-          img={github}
-          title="Github"
-          alt="github"
-          link="https://github.com/Serrowxd"
         />
       </div>
     </div>
