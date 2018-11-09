@@ -21,4 +21,8 @@ Started off as a draft, ended up as my website. ReactJS with LESS.
   - Maybe clicking a picture will route you to a new page that displays the information, rather than having the overlay itself do it. A little extra work but it would come out a little better.
 
 - Navigation:
+
   - Probably need to add an <active> tag so that users will know which page they are on.
+
+- Social:
+  - Going to remove this section and relist it under my About, then probably replace it with a PDF of my portfolio.

@@ -13,6 +13,9 @@ html {
 div {
   display: flex;
 }
+.active {
+  color: #18d7dd !important;
+}
 .none {
   display: none;
 }
