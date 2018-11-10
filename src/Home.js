@@ -9,7 +9,11 @@ class Home extends Component {
     super(props);
     this.state = {
       comp: <Main />,
-      active: false,
+      activeHome: false,
+      activeAbout: false,
+      activeSkills: false,
+      activeProjects: false,
+      activeSocial: false,
     };
   }
 
@@ -23,11 +27,36 @@ class Home extends Component {
         <div className="comp_container">
           {this.state.comp}
           <div className="nav_cont">
-            <p onClick={this.handleClick.bind(this, <Main />)}> Home </p>
-            <p onClick={this.handleClick.bind(this, <About />)}> About </p>
-            <p onClick={this.handleClick.bind(this, <Skills />)}> Skills </p>
-            <p onClick={this.handleClick.bind(this, <Projects />)}>Projects</p>
-            <p onClick={this.handleClick.bind(this, <Social />)}> Social </p>
+            <p
+              className={this.state.activeHome ? 'active' : ''}
+              onClick={this.handleClick.bind(this, <Main />)}
+            >
+              Home
+            </p>
+            <p
+              className={this.state.activeAbout ? 'active' : ''}
+              onClick={this.handleClick.bind(this, <About />)}
+            >
+              About
+            </p>
+            <p
+              className={this.state.activeSkills ? 'active' : ''}
+              onClick={this.handleClick.bind(this, <Skills />)}
+            >
+              Skills
+            </p>
+            <p
+              className={this.state.activeProjects ? 'active' : ''}
+              onClick={this.handleClick.bind(this, <Projects />)}
+            >
+              Projects
+            </p>
+            <p
+              className={this.state.activeSocial ? 'active' : ''}
+              onClick={this.handleClick.bind(this, <Social />)}
+            >
+              Social
+            </p>
           </div>
         </div>
       </div>
