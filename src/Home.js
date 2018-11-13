@@ -26,7 +26,7 @@ class Home extends Component {
       <div className="background_container">
         <div className="comp_container">
           {this.state.comp}
-          <div className="nav_cont">
+          <div className="nav_cont" id="nav">
             <p
               className={this.state.activeHome ? 'active' : ''}
               onClick={this.handleClick.bind(this, <Main />)}
