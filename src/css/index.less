@@ -9,6 +9,7 @@
 // Breakpoints
 
 @ultrawidescreen: ~'(max-width: 1600px)';
+@semiwidescreen: ~'(max-width: 1400px)';
 @widescreen: ~'(max-width: 1199px)';
 @desktop: ~'(max-width: 991px)';
 @tablet: ~'(max-width: 767px)';
@@ -837,6 +838,10 @@ span:hover {
 .modal_row {
   width: 100%;
   justify-content: space-around;
+
+  @media @tablet {
+    height: 90%;
+  }
 }
 
 .modal_col {
@@ -867,12 +872,82 @@ span:hover {
     width: 70%;
     justify-content: space-around;
   }
+
+  @media @semiwidescreen {
+    h1 {
+      font-size: 5rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+
+    img {
+      height: 30rem;
+    }
+  }
+
+  @media @tablet {
+    width: 100%;
+    position: fixed;
+    align-self: center;
+    height: 70%;
+
+    h1 {
+      margin: 0;
+      font-size: 7rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 1.5rem;
+    }
+
+    img {
+      display: none;
+    }
+  }
+
+  @media @phone {
+    h1 {
+      font-size: 3.5rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+
+    button {
+      margin: 0.5rem;
+    }
+  }
 }
 
 .exit_button {
   align-self: flex-end;
   margin-right: 8rem;
   width: 2.5rem;
+  z-index: 2;
+
+  @media @desktop {
+    margin-right: 4rem;
+    width: 2rem;
+  }
+
+  @media @phone {
+    margin-right: 0.75rem;
+  }
 }
 
 // Social

@@ -613,6 +613,11 @@ span:hover {
   width: 100%;
   justify-content: space-around;
 }
+@media (max-width: 767px) {
+  .modal_row {
+    height: 90%;
+  }
+}
 .modal_col {
   flex-direction: column;
   width: 50%;
@@ -637,10 +642,71 @@ span:hover {
   width: 70%;
   justify-content: space-around;
 }
+@media (max-width: 1400px) {
+  .modal_col h1 {
+    font-size: 5rem;
+  }
+  .modal_col h2 {
+    font-size: 1.5rem;
+  }
+  .modal_col p {
+    font-size: 1rem;
+  }
+  .modal_col img {
+    height: 30rem;
+  }
+}
+@media (max-width: 767px) {
+  .modal_col {
+    width: 100%;
+    position: fixed;
+    align-self: center;
+    height: 70%;
+  }
+  .modal_col h1 {
+    margin: 0;
+    font-size: 7rem;
+  }
+  .modal_col h2 {
+    font-size: 2rem;
+  }
+  .modal_col p {
+    font-size: 1.5rem;
+  }
+  .modal_col img {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .modal_col h1 {
+    font-size: 3.5rem;
+  }
+  .modal_col h2 {
+    font-size: 1.5rem;
+  }
+  .modal_col p {
+    font-size: 1rem;
+  }
+  .modal_col button {
+    margin: 0.5rem;
+  }
+}
 .exit_button {
   align-self: flex-end;
   margin-right: 8rem;
   width: 2.5rem;
+  z-index: 2;
+}
+@media (max-width: 991px) {
+  .exit_button {
+    margin-right: 4rem;
+    width: 2rem;
+  }
+}
+@media (max-width: 480px) {
+  .exit_button {
+    margin-right: 0.75rem;
+  }
 }
 .social {
   width: 80%;

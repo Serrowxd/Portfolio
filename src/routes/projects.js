@@ -144,7 +144,7 @@ const Projects = () => {
           item2="Styled-Components"
           item3="LESS"
           item4="Firebase"
-          modal_1="World of Warcraft - Looking for Group"
+          modal_1="Looking for Group"
           modal_2="JavaScript"
           modal_3="React, LESS, Styled-Components, Firebase"
         />
