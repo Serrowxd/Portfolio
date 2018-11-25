@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
-import './css/index.css';
+import React, { Component } from "react";
+import "./css/index.css";
 
 // Comp Imports
-import { Main, About, Skills, Projects, Social, Working } from './reducer';
+import { Main, About, Skills, Projects, Social, Working } from "./reducer";
 
 class Home extends Component {
   constructor(props) {
@@ -13,7 +13,7 @@ class Home extends Component {
       activeAbout: false,
       activeSkills: false,
       activeProjects: false,
-      activeSocial: false,
+      activeSocial: false
     };
   }
 
@@ -28,31 +28,31 @@ class Home extends Component {
           {this.state.comp}
           <div className="nav_cont" id="nav">
             <p
-              className={this.state.activeHome ? 'active' : ''}
+              className={this.state.activeHome ? "active" : ""}
               onClick={this.handleClick.bind(this, <Main />)}
             >
               Home
             </p>
             <p
-              className={this.state.activeAbout ? 'active' : ''}
+              className={this.state.activeAbout ? "active" : ""}
               onClick={this.handleClick.bind(this, <About />)}
             >
               About
             </p>
             <p
-              className={this.state.activeSkills ? 'active' : ''}
+              className={this.state.activeSkills ? "active" : ""}
               onClick={this.handleClick.bind(this, <Skills />)}
             >
               Skills
             </p>
             <p
-              className={this.state.activeProjects ? 'active' : ''}
+              className={this.state.activeProjects ? "active" : ""}
               onClick={this.handleClick.bind(this, <Projects />)}
             >
               Projects
             </p>
             <p
-              className={this.state.activeSocial ? 'active' : ''}
+              className={this.state.activeSocial ? "active" : ""}
               onClick={this.handleClick.bind(this, <Social />)}
             >
               Social

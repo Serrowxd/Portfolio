@@ -1,7 +1,7 @@
 #root,
 html,
 body {
-  font-family: 'Maven Pro', sans-serif;
+  font-family: "Maven Pro", sans-serif;
   background-color: black;
 }
 body {
@@ -224,6 +224,11 @@ span:hover {
   }
   .main_title .fill_text {
     transform: rotate(90deg);
+  }
+}
+@media (max-height: 670px) {
+  .main_title {
+    margin-top: 0;
   }
 }
 .nav_cont {
@@ -791,7 +796,7 @@ span:hover {
 .contact_form input,
 .contact_form textarea {
   font-size: 1.2rem;
-  font-family: 'Maven Pro', sans-serif;
+  font-family: "Maven Pro", sans-serif;
 }
 .contact_form input {
   width: 30rem;

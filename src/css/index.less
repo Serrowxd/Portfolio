@@ -8,18 +8,18 @@
 
 // Breakpoints
 
-@ultrawidescreen: ~'(max-width: 1600px)';
-@semiwidescreen: ~'(max-width: 1400px)';
-@widescreen: ~'(max-width: 1199px)';
-@desktop: ~'(max-width: 991px)';
-@tablet: ~'(max-width: 767px)';
-@phone: ~'(max-width: 480px)';
-@smallphone: ~'(max-width: 320px)';
+@ultrawidescreen: ~"(max-width: 1600px)";
+@semiwidescreen: ~"(max-width: 1400px)";
+@widescreen: ~"(max-width: 1199px)";
+@desktop: ~"(max-width: 991px)";
+@tablet: ~"(max-width: 767px)";
+@phone: ~"(max-width: 480px)";
+@smallphone: ~"(max-width: 320px)";
 
 #root,
 html,
 body {
-  font-family: 'Maven Pro', sans-serif;
+  font-family: "Maven Pro", sans-serif;
 
   // Allows the animation to load correctly for the opacity transition
   background-color: black;
@@ -302,6 +302,12 @@ span:hover {
     .fill_text {
       transform: rotate(90deg);
     }
+  }
+
+  @media (max-height: 670px) {
+    margin-top: 0;
+
+    // Testing this for laptops and other smaller viewport screens.
   }
 }
 
@@ -1050,7 +1056,7 @@ span:hover {
   input,
   textarea {
     font-size: 1.2rem;
-    font-family: 'Maven Pro', sans-serif;
+    font-family: "Maven Pro", sans-serif;
   }
 
   input {
