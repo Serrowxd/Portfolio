@@ -51,7 +51,7 @@ const About = () => {
             currently <strong>TBD</strong>. Creative Writing (poetry included)
             is something I'm incredibly passionate about.
             <p>
-              I see every day as an opoprtunity to push the boundaries, to go
+              I see every day as an opportunity to push the boundaries, to go
               beyond what I ever thought capable and achieve new heights that I
               have only ever dreamed of. There are only so many hours in the
               day, so I do everything I can to make the most of them.

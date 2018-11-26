@@ -4,14 +4,19 @@ Started off as a draft, ended up as my website. ReactJS with LESS.
 
 # Broken Stuff
 
-- Worky component, when rendering the project section, breaks the overlay text.
-- Projects section doesn't have reactivity anymore.
+- Worky component, when rendering the project section, breaks the overlay text. [NO LONGER USED]
+
+- Projects section doesn't have reactivity anymore. [FIXED]
 
 # TO-DO
 
-- Add Styled-Components to help relieve the weight of broken styling?
-- Publications section?
-- Add color based on component being rendered? Assistance with navigation.
+- Refactor all the media breakpoints into LESS mixins.
+- Create a "holder" for all the media breakpoints, right now they are scattered and hard to manage.
+
+# WORKING
+
+- Publications section
+- Photography section
 
 - Project Section Specific:
 
