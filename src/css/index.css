@@ -104,7 +104,9 @@ span:hover {
 }
 /* 47a7f5 */
 .ripple:hover {
-  background: rgba(23, 202, 193, 0.945) radial-gradient(circle, transparent 1%, rgba(23, 202, 193, 0.945) 1%) center / 15000%;
+  background: rgba(23, 202, 193, 0.945)
+    radial-gradient(circle, transparent 1%, rgba(23, 202, 193, 0.945) 1%) center /
+    15000%;
 }
 .ripple:active {
   background-color: #00fff2;
