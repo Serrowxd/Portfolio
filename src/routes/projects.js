@@ -12,6 +12,7 @@ import oncedaily from '../assets/projects/yas.png';
 import sinnew from '../assets/projects/sinnew.png';
 import xuen from '../assets/projects/xuen.png';
 import lfg from '../assets/projects/lfg.png';
+import port3 from '../assets/projects/anotherportf.png';
 
 const Projects = () => {
   return (
@@ -58,6 +59,20 @@ const Projects = () => {
           item3="HTML/LESS/JQuery"
           item4="Updated Daily"
           modal_1="A new website, every day"
+          modal_2="JavaScript"
+          modal_3="HTML, LESS, JQuery"
+        />
+
+        <Project
+          img={port3}
+          title="Portfolio [Revamp]"
+          alt="Revamped Portfolio"
+          link_dep="https://github.com/Serrowxd/Another_Portfolio"
+          link_hub="https://github.com/Serrowxd/Another_Portfolio"
+          item1="HTML"
+          item2="LESS"
+          item3="JQuery"
+          modal_1="A revamped portfolio"
           modal_2="JavaScript"
           modal_3="HTML, LESS, JQuery"
         />
@@ -147,21 +162,6 @@ const Projects = () => {
           modal_1="Looking for Group"
           modal_2="JavaScript"
           modal_3="React, LESS, Styled-Components, Firebase"
-        />
-
-        <Project
-          img={sin}
-          title="SinForsaken [OLD]"
-          alt="SinForsaken"
-          link_dep="https://sinforsakenguild.netlify.com/"
-          link_hub="https://github.com/Serrowxd/SinForsaken_React"
-          item1="React"
-          item2="Styled-Components"
-          item3="LESS"
-          item4="Material-UI"
-          modal_1="Guild Website"
-          modal_2="JavaScript"
-          modal_3="React, LESS, Styled-Components, Material-UI"
         />
 
         <Project
