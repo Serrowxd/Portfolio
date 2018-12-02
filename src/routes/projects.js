@@ -67,14 +67,14 @@ const Projects = () => {
           img={port3}
           title="Portfolio [Revamp]"
           alt="Revamped Portfolio"
-          link_dep="https://github.com/Serrowxd/Another_Portfolio"
-          link_hub="https://github.com/Serrowxd/Another_Portfolio"
-          item1="HTML"
+          link_dep="https://epic-swanson-dd08b4.netlify.com/"
+          link_hub="https://github.com/Serrowxd/Another_Portfolio/tree/master/React"
+          item1="React"
           item2="LESS"
-          item3="JQuery"
-          modal_1="A revamped portfolio"
+          item3="Work in Progress!"
+          modal_1="A revamped portfolio with a fresh design"
           modal_2="JavaScript"
-          modal_3="HTML, LESS, JQuery"
+          modal_3="React, LESS"
         />
 
         <Project
