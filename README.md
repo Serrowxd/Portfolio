@@ -1,4 +1,10 @@
-# My Portfolio
+# Legacy 2019 Portfolio
+
+One of my first real attempts at an online presence for me. Everything below is the original readme.
+
+This is being revamped as part of my 2025 portfolio revamp, it will be deployed and displayed in my new portfolio project section as an item of rememberance.
+
+---
 
 Started off as a draft, ended up as my website. ReactJS with LESS.
 
